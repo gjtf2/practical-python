@@ -137,14 +137,31 @@
 
 # F-Strings
 
-name = 'IBM'
-shares = 100
-price = 91.1
-a = f'{name:>10s}{shares:10d}{price:10.2f}'
-print(a)
+# name = 'IBM'
+# shares = 100
+# price = 91.1
+# a = f'{name:>10s}{shares:10d}{price:10.2f}'
+# print(a)
 
-b = f'Cost = ${shares*price:0.2f}'
-print(b)
+# b = f'Cost = ${shares*price:0.2f}'
+# print(b)
+
+
+
+# import re
+
+# text = 'Today is 3/27/2018. Tomorrow is 3/03/2018.'
+
+# x = re.findall(r'\d+/\d+/\d+', text)
+
+# y = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', text)
+
+# print(x)
+
+# print(y)
+
+
+
 
 
 
